@@ -1,0 +1,159 @@
+ <section className="  w-[22.08%] h-[18.05%] top-[35.49%] left-[2.71%] opacity-[1] z-[8]  rotate-[0deg]     absolute ">
+          <div className=" w-[100%] h-[100%] top-[0%] left-[0%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+            <div className="  w-[28.3%] h-[30.2%] top-[60.4%] left-[35.85%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+              <img
+                src={image7}
+                className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-014 "
+                alt="014-ALT"
+              />{" "}
+            </div>
+          </div>
+          <div className="  w-[88.36%] h-[66.44%] top-[12.75%] left-[5.97%] opacity-[1] z-[1]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+            <span className="third-degree-re-015-0 ">{`Third Degree Reiki Master`}</span>
+          </div>
+        </section>
+        {/* SpiritualResponse1 */}
+        <section className=" w-[22.08%] h-[18.05%] top-[35.49%] left-[26.88%] opacity-[1] z-[11]  rotate-[0deg]     absolute ">
+          <div className=" w-[100%] h-[100%] top-[0%] left-[0%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+            <div className=" w-[88.36%] h-[66.44%] top-[12.75%] left-[5.97%] opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+              <span className="spiritual-respo-022-0 ">{`Spiritual Response Therapy`}</span>
+            </div>
+            <div className=" w-[28.3%] h-[30.2%] top-[62.08%] left-[35.85%] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden   absolute ">
+              <img
+                src={image8}
+                className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-023 "
+                alt="023-ALT"
+              />{" "}
+            </div>
+          </div>
+        </section>
+        {/* LongDistance1 */}
+        <section className=" w-[22.08%] h-[18.05%] top-[35.49%] left-[51.04%] opacity-[1] z-[14]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[88.36%] h-[66.44%] top-[12.75%] left-[5.66%] opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+            <span className="long-distance-h-029-0 ">{`Long Distance Healing Specialist `}</span>
+          </div>
+          <div className=" absolute w-[28.3%] h-[30.2%] top-[61.07%] left-[35.85%] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image9}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-030 "
+              alt="030-ALT"
+            />{" "}
+          </div>
+        </section>
+        {/* Clearing1 */}
+        <section className=" w-[22.01%] h-[18.05%] top-[35.49%] left-[75.28%] opacity-[1] z-[17]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[88.64%] h-[66.44%] top-[12.75%] left-[5.68%] opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+            <span className="clearing--readi-036-0 ">{`Clearing & Reading Sessions`}</span>
+          </div>
+          <div className=" absolute w-[28.39%] h-[30.2%] top-[62.08%] left-[35.96%] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image10}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-037 "
+              alt="037-ALT"
+            />{" "}
+          </div>
+        </section>
+        {/* Grief1 */}
+        <section className=" w-[22.08%] h-[18.05%] top-[55.48%] left-[2.71%] opacity-[1] z-[9]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[28.3%] h-[30.2%] top-[62.08%] left-[35.85%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image11}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-017 "
+              alt="017-ALT"
+            />{" "}
+          </div>
+        </section>
+        {/* HandsOn1 */}
+        <section className=" w-[22.08%] h-[18.05%] top-[55.48%] left-[26.88%] opacity-[1] z-[12]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[28.3%] h-[30.2%] top-[63.09%] left-[35.85%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image12}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-025 "
+              alt="025-ALT"
+            />{" "}
+          </div>
+        </section>
+        {/* Meditation1 */}
+        <section className=" w-[22.08%] h-[18.05%] top-[55.48%] left-[51.04%] opacity-[1] z-[15]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" w-[28.3%] h-[30.2%] top-[63.09%] left-[35.85%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image13}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-032 "
+              alt="032-ALT"
+            />{" "}
+          </div>
+        </section>
+        {/* Visualization1 */}
+        <section className=" w-[22.01%] h-[18.05%] top-[55.48%] left-[75.28%] opacity-[1] z-[18]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[28.39%] h-[30.2%] top-[63.76%] left-[35.96%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image14}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-039 "
+              alt="039-ALT"
+            />{" "}
+          </div>
+        </section>
+        <div className=" w-[19.51%] h-[11.99%] top-[58.03%] left-[3.61%] opacity-[1] z-[24]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+          <span className="grief-counselin-046-0 ">{`Grief Counseling`}</span>
+        </div>
+        <div className=" w-[19.51%] h-[11.99%] top-[58.03%] left-[28.19%] opacity-[1] z-[26]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+          <span className="hands-on-intuit-048-0 ">{`Hands On Intuitive Healing`}</span>
+        </div>
+        <div className=" w-[19.51%] h-[11.99%] top-[58.03%] left-[52.29%] opacity-[1] z-[20]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+          <span className="meditationclas-042-0 ">{`MeditationClasses`}</span>
+        </div>
+        <div className=" w-[19.51%] h-[11.99%] top-[58.03%] left-[76.53%] opacity-[1] z-[22]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+          <span className="creative-visual-044-0 ">{`Creative Visualization Classes`}</span>
+        </div>
+        {/* Flower1 */}
+        <section className=" w-[22.08%] h-[18.05%] top-[75.47%] left-[2.71%] opacity-[1] z-[10]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[28.3%] h-[30.2%] top-[56.71%] left-[35.85%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image15}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-019 "
+              alt="019-ALT"
+            />{" "}
+          </div>
+        </section>
+        {/* Energy1 */}
+        <section className=" w-[22.08%] h-[18.05%] top-[75.47%] left-[26.88%] opacity-[1] z-[13]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[28.3%] h-[30.2%] top-[57.05%] left-[35.85%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image16}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-027 "
+              alt="027-ALT"
+            />{" "}
+          </div>
+        </section>
+        {/* Soul1 */}
+        <section className=" w-[22.08%] h-[18.05%] top-[75.47%] left-[51.04%] opacity-[1] z-[16]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[28.3%] h-[30.2%] top-[60.4%] left-[35.85%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image17}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-034 "
+              alt="034-ALT"
+            />{" "}
+          </div>
+        </section>
+        {/* Cranio1 */}
+        <section className=" w-[22.01%] h-[18.05%] top-[75.53%] left-[75.21%] opacity-[1] z-[19]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+          <div className=" absolute w-[28.39%] h-[30.2%] top-[58.39%] left-[35.96%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+            <img
+              src={image18}
+              className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-041 "
+              alt="041-ALT"
+            />{" "}
+          </div>
+        </section>
+        <div className=" w-[19.51%] h-[11.99%] top-[78.13%] left-[3.61%] opacity-[1] z-[25]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+          <span className="flower-essences-047-0 ">{`Flower Essences`}</span>
+        </div>
+        <div className=" w-[19.51%] h-[11.99%] top-[78.13%] left-[28.19%] opacity-[1] z-[27]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+          <span className="integrated-ener-049-0 ">{`Integrated Energy Therapy`}</span>
+        </div>
+        <div className=" w-[19.51%] h-[11.99%] top-[78.13%] left-[52.29%] opacity-[1] z-[21]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+          <span className="finding-your-so-043-0 ">{`Finding Your Soul’s Purpose`}</span>
+        </div>
+        <div className=" w-[19.51%] h-[11.99%] top-[78.13%] left-[76.53%] opacity-[1] z-[23]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+          <span className="craniosacral-th-045-0 ">{`CranioSacral Therapy`}</span>
+        </div>
