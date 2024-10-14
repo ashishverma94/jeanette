@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /*
   Note: These are temporary previews of the images. 
   They're active for 10-15 days only. You should replace them with the actual images before using the code in production.
@@ -10,10 +11,12 @@
   --design-width: 1440;
   --ratio: calc(var(--custom-width) / var(--design-width));
 }
+
 body {
   margin: 0px 0px;
   padding: 0px;
 }
+
 .parent-div {
   position: relative;
   width: var(--custom-width);
@@ -23,6 +26,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
+
 .nodeBg-058 {
   width: calc(1232.8789414363346 * var(--ratio));
   height: calc(712.324555404322 * var(--ratio));
@@ -34,12 +38,14 @@ body {
   object-fit: cover;
   opacity: 1;
 }
+
 .nodeBg-061,
 .nodeBg-062,
 .nodeBg-04 {
   object-fit: cover;
   opacity: 1;
 }
+
 .nodeBg-08,
 .nodeBg-06,
 .nodeBg-07,
@@ -58,6 +64,7 @@ body {
   object-fit: contain;
   opacity: 1;
 }
+
 .c-6233374706-011-0,
 .c-4807723405-010-0,
 .jeanettewilsonc-09-0 {
@@ -73,6 +80,7 @@ body {
   white-space: pre-wrap;
   color: #5686e1ff;
 }
+
 .whats-holding-y-059-0 {
   font-size: calc(60 * var(--ratio));
 
@@ -86,6 +94,7 @@ body {
   white-space: pre-wrap;
   color: #ff6b1aff;
 }
+
 .jeanette-haney--051-0 {
   font-size: calc(48 * var(--ratio));
 
@@ -99,6 +108,7 @@ body {
   white-space: pre-wrap;
   color: #ffffffff;
 }
+
 .jeanette-haney--051-1 {
   font-size: calc(36 * var(--ratio));
 
@@ -112,6 +122,7 @@ body {
   white-space: pre-wrap;
   color: #ffffffff;
 }
+
 .nodeBg-054 {
   width: calc(221.59281452872284 * var(--ratio));
   height: calc(281.4163795534643 * var(--ratio));
@@ -123,6 +134,7 @@ body {
   object-fit: cover;
   opacity: 1;
 }
+
 .about-jeanette-055-0 {
   font-size: calc(20 * var(--ratio));
 
@@ -136,10 +148,12 @@ body {
   white-space: pre-wrap;
   color: #ffffffff;
 }
+
 .nodeBg-057 {
   opacity: 1;
   background-image: var(--image-0);
 }
+
 .born-in-easton--056-0 {
   font-size: calc(18 * var(--ratio));
 
@@ -153,6 +167,7 @@ body {
   white-space: pre-wrap;
   color: #ffffffff;
 }
+
 .certified-reiki-060-0 {
   font-size: calc(36 * var(--ratio));
 
@@ -166,6 +181,7 @@ body {
   white-space: pre-wrap;
   color: #ffffffff;
 }
+
 .skills-and-expe-050-0,
 .third-degree-re-015-0,
 .spiritual-respo-022-0,
@@ -173,12 +189,13 @@ body {
 .clearing--readi-036-0,
 .grief-counselin-046-0,
 .hands-on-intuit-048-0,
-.meditation clas-042-0,
+.meditation clas-042-0,
 .creative-visual-044-0,
 .flower-essences-047-0,
 .integrated-ener-049-0,
 .finding-your-so-043-0,
-.craniosacral-th-045-0 {
+.craniosacral-th-045-0,
+.text-scale {
   font-size: calc(36 * var(--ratio));
 
   line-height: calc(36 * var(--ratio));
@@ -191,11 +208,13 @@ body {
   white-space: pre-wrap;
   color: #ffffffff;
 }
+
 .nodeBg-052,
 .nodeBg-053 {
   opacity: 1;
   background-image: var(--image-1);
 }
+
 .available-for-r-063-0 {
   font-size: calc(20 * var(--ratio));
 
@@ -210,37 +229,53 @@ body {
   color: #ffffffff;
 }
 
+.para-scale {
+  font-size: calc(20 * var(--ratio));
+
+  line-height: calc(20 * var(--ratio));
+
+  font-family: Inter;
+  font-weight: 600;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
 
 
 
 .container {
   position: relative;
-  overflow: hidden; /* Hide overflow to keep the black card hidden */
+  overflow: hidden;
+  /* Hide overflow to keep the black card hidden */
 }
 
 .red-card {
   cursor: pointer;
-  width: 318px;
-  height: 298px;
+  background-color: red;
+  /* width: 318px;
+  height: 298px; */
   transition: background-color 0.3s;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .black-card {
   background-color: black;
   color: white;
-  width: 318px;
-  height: 298px;
-  padding: 38px 19px 0;
+  /* width: 318px;
+  height: 298px; */
+  /* padding: 4% 4%; */
   position: absolute;
-  bottom: -298px; 
+  bottom: -298px;
   transition: bottom 0.7s ease-in-out;
   z-index: 3;
 }
 
 
 
-.red-card:hover ~ .black-card {
+.red-card:hover~.black-card {
   bottom: 0;
 }
 
@@ -259,8 +294,10 @@ body {
 
 .card {
   position: relative;
-  width: 318px;
-  height: 298px;
+  /* width: 318px;
+  height: 298px; */
+  width: 95%;
+  height: 100%;
   overflow: hidden;
   transition: all 0.3s ease;
 }
@@ -268,7 +305,8 @@ body {
 .card-content {
   padding: 20px;
   background-color: white;
-  z-index: 1; /* Keep the content above the description */
+  z-index: 1;
+  /* Keep the content above the description */
 }
 
 .properties {
@@ -282,19 +320,22 @@ body {
 
 .description {
   position: absolute;
-  top: 100%; /* Start below the card */
+  top: 100%;
+  /* Start below the card */
   left: 0;
   right: 0;
-  bottom: 0; /* Full height */
+  bottom: 0;
+  /* Full height */
   background-color: black;
   color: white;
-  padding: 20px;
-  transition: top 0.7s ease; /* Animate position */
-  z-index: 0; /* Ensure it’s behind the card content */
+  padding: 5%;
+  transition: top 0.7s ease;
+  /* Animate position */
+  z-index: 0;
+  /* Ensure it’s behind the card content */
 }
 
 .card:hover .description {
-  top: 0; /* Slide up on hover */
+  top: 0;
+  /* Slide up on hover */
 }
-
-

@@ -1,18 +1,15 @@
 import React from "react";
+import "./style.css";
 
-const HeroCard = ({ imgUrl ,title,desc}) => {
+const HeroCard = ({ imgUrl, title, desc }) => {
   return (
-    <div class="card bg-[#D3AEAE] pt-[38px] px-[19px] pb-[28px] flex flex-col justify-between items-center cursor-pointer">
+    <div class="card bg-[#D3AEAE] pt-[15%] px-[2%] pb-[10%] gap-[10%] flex flex-col justify-between items-center cursor-pointer">
       <div>
-        <div className="text-[36px] font-[600] text-center">
-          {title}
-        </div>
+        <div className=" text-center skills-and-expe-050-0">{title}</div>
       </div>
-      <img src={imgUrl} alt="img" />
-      <div class="description">
-        <p className="font-[400] text-[24px] leading-[29px]">
-          {desc}
-        </p>
+      <img src={imgUrl} alt="img" className="w-[28.3%] h-[30.2%]" />
+      <div class="description ">
+        <p className="para-scale">{desc}</p>
       </div>
     </div>
   );

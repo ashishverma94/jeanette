@@ -122,8 +122,9 @@ const HeroSection = () => {
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
-          className=" w-[96.18%] p-[12px] top-[34.77%] left-[1.94%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute grid grid-cols-4 gap-[30px]"
+          className=" w-[96.18%]] p-[12px] top-[34.77%] left-[1.94%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute grid grid-cols-4 gap-x-[3%] gap-y-[4%] place-items-center"
         >
+        
           <HeroCard
             imgUrl={image7}
             title={"Third Degree Reiki Master"}
@@ -131,6 +132,21 @@ const HeroSection = () => {
               "Certified Reiki Master with over 30 years of experience. Healing begins when we stop re-living past experience and trauma in our life and body, allowing “Well Being” to flow through."
             }
           />
+
+          {/* <section className=" bg-[red]  w-[22.08%] h-[18.05%] top-[35.49%] left-[2.71%] opacity-[1] z-[8]  rotate-[0deg]     absolute ">
+            <div className=" w-[100%] bg-[red] h-[100%] top-[0%] left-[0%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden bg-[#d3aeaeff]   absolute ">
+              <div className="  w-[28.3%] h-[30.2%] top-[60.4%] left-[35.85%] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden   absolute ">
+                <img
+                  src={image7}
+                  className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-contain nodeBg-014 "
+                  alt="014-ALT"
+                />{" "}
+              </div>
+            </div>
+            <div className="  w-[88.36%] h-[66.44%] top-[12.75%] left-[5.97%] opacity-[1] z-[1]  rotate-[0deg]   text-center leading-[0px]   absolute ">
+              <span className="third-degree-re-015-0 ">{`Third Degree Reiki Master`}</span>
+            </div>
+          </section> */}
 
           <HeroCard
             imgUrl={image8}
